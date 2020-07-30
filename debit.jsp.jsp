@@ -13,9 +13,9 @@
 <title>Success</title>
 </head>
 <body>
-<% String url = "jdbc:mysql://localhost:3306/pradeepk";
+<% String url = "jdbc:mysql://localhost:3306/covid19";
 String username = "root";
-String password = "pradeepk";
+String password = "root";
 HttpSession session = request.getSession();
 int bal = (int)session.getAttribute("balance");
 try
